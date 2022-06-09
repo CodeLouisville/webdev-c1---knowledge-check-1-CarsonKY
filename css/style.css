@@ -41,7 +41,7 @@ body {
     max-width: 1000px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 12px;
     margin: 0;
@@ -179,7 +179,7 @@ a:hover, a:active {
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: #F1F1F1;
+    color: #74B44A;
     border: 2px solid #666666;
 }
 
