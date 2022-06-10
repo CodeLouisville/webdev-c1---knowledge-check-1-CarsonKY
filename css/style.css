@@ -69,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 0;
+    padding: 1px 0;
 }
 
 .aboutme-content {
@@ -83,6 +83,20 @@ body {
     padding: 12px;
 }
 
+.aboutme-content > img {
+   
+  transform: scale(1.5);
+  justify-content: center;
+  padding-top: 1em;
+  
+
+}
+
+.aboutme-content > h2 {
+    padding: 1em;
+    justify-content: center;
+    align-content: center;
+}
 
 .contactme-container {
     background: #29326a;
@@ -280,6 +294,8 @@ section p {
     line-height: 1.5;
 }
 
+
+  
 
 /* Lists and Navigation
 ========================================================================== */
