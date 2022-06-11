@@ -41,7 +41,7 @@ body {
     max-width: 1000px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 12px;
     margin: 0;
@@ -69,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 48px 0;
+    padding: 1px 0;
 }
 
 .aboutme-content {
@@ -82,6 +82,65 @@ body {
     align-items: center;
     padding: 12px;
 }
+
+.aboutme-content > img {
+   
+  transform: scale(1.5);
+  justify-content: center;
+  padding-top: 1em;
+  
+
+}
+
+.aboutme-content > h2 {
+    padding: 1em;
+    justify-content: center;
+    align-content: center;
+}
+
+a:link {
+    color: magenta;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.contactme-container {
+    background: #29326a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.contactme-content {
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
 
 .projects-container {
     background: #232443;
@@ -101,10 +160,10 @@ body {
     align-items: center;
     padding: 12px;
 }
-
+/* 
 .projects-item {
     
-}
+} */
 
 .footer-container {
     background: #1b1b27;
@@ -128,7 +187,7 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+/* a:visited {
     
 }
 
@@ -137,7 +196,7 @@ a:focus {
 }
 a:hover, a:active {
 
-}
+} */
 
 /* .hero-container .btn, .hero-container .btn:visited  {
     width: 100%;
@@ -179,7 +238,7 @@ a:hover, a:active {
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: #F1F1F1;
+    color: #74B44A;
     border: 2px solid #666666;
 }
 
@@ -259,6 +318,8 @@ section p {
     line-height: 1.5;
 }
 
+
+  
 
 /* Lists and Navigation
 ========================================================================== */
